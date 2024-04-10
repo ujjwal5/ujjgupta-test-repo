@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: https://330c-130-248-127-34.ngrok-free.app/
+    url: https://author-p10652-e203356-cmstg.adobeaemcloud.com/
     type: "markup"
     suffix: ".md.html"

@@ -411,8 +411,12 @@ export async function createForm(formDef, data) {
   }
 
   form.addEventListener('reset', async () => {
+    const thankYouMessage = form.querySelector('.form-message.success-message');
     const newForm = await createForm(formDef);
     document.querySelector(`[data-action="${formDef.action}"]`).replaceWith(newForm);
+    if (thankYouMessage) {
+      form.appendChild(thankYouMessage);
+    }
   });
 
   form.addEventListener('submit', (e) => {

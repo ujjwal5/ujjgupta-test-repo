@@ -415,7 +415,7 @@ export async function createForm(formDef, data) {
     const newForm = await createForm(formDef);
     document.querySelector(`[data-action="${formDef.action}"]`).replaceWith(newForm);
     if (thankYouMessage) {
-      form.appendChild(thankYouMessage);
+      newForm.appendChild(thankYouMessage);
     }
   });
 

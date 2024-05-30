@@ -415,7 +415,10 @@ export async function createForm(formDef, data) {
     const newForm = await createForm(formDef);
     document.querySelector(`[data-action="${formDef.action}"]`).replaceWith(newForm);
     if (thankYouMessage) {
-      newForm.appendChild(thankYouMessage);
+      newForm.prepend(thankYouMessage);
+      if (thankYouMessage.scrollIntoView) {
+        thankYouMessage.scrollIntoView({ behavior: 'smooth' });
+      }
     }
   });
 

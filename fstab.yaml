@@ -1,3 +1,5 @@
 mountpoints:
   /:
-    url: https://drive.google.com/drive/u/3/folders/1qsMj3xl0rMeEgkuy5DHC_D4WOgwhCrQ8
+    url: https://5ac1-130-248-127-34.ngrok-free.app/bin/franklin.delivery/ujjwal5/ujjgupta-test-repo/main
+    type: "markup"
+    suffix: ".html"

@@ -1,7 +1,7 @@
 {
     "mappings": [
       "/:/",
-      "/content/forms/af/cards/corporatecreditcard/configuration:/.helix/config.json",
-      "/content/forms/af/cards/corporatecreditcard/headers:/.helix/headers.json"
+      "/content/forms/af/configuration:/.helix/config.json",
+      "/content/forms/af/headers:/.helix/headers.json"
     ]
   }

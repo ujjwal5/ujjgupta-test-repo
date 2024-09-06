@@ -1,7 +1,7 @@
 {
     "mappings": [
       "/:/",
-      "/content/forms/af/configuration:/.helix/config.json",
+      "/content/forms/af/configuration-copy:/.helix/config.json",
       "/content/forms/af/headers:/.helix/headers.json"
     ]
   }

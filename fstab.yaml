@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: https://a4c4-130-248-127-34.ngrok-free.app/bin/franklin.delivery/ujjwal5/ujjgupta-test-repo/main
+    url: https://9f8d-130-248-126-34.ngrok-free.app/bin/franklin.delivery/ujjwal5/ujjgupta-test-repo/main
     type: "markup"
     suffix: ".html"
